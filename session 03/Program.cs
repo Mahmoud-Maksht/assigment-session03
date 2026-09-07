@@ -22,7 +22,6 @@
             #region Q3
              int pages = "646"     //compile error
             #endregion
-            */
             #region Q4
             try  //handles exception
             {
@@ -38,7 +37,12 @@
                 Console.WriteLine("done");
             }
             #endregion
-           
+            */
+            #region Q5
+            int pages = 300;
+            double webpages = pages;  //implicit casting
+            Console.WriteLine(webpages);
+            #endregion
 
         }
     }
