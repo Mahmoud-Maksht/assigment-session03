@@ -47,11 +47,25 @@
             int realprice = (int)prise;  //explicit casting
             Console.WriteLine(realprice);
             #endregion
-            */
             #region Q7
             string pagestext = "464";
             int numpagestext = Convert.ToInt32(pagestext);  //convert from string to int
             Console.WriteLine(numpagestext);
+            #endregion
+            */
+            #region Q8
+            string yeartext = "2023";
+            int text = int.Parse( yeartext );  //convert from string to int
+            Console.WriteLine(text);
+            string badtext = "abc";
+            if (int.TryParse(badtext, out int number))  //convert from string to int safely
+            { 
+            Console.WriteLine(number);
+            }
+            else
+            {
+                Console.WriteLine("invalid number");
+            }
             #endregion
 
         }
