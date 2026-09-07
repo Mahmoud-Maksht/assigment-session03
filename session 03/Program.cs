@@ -66,12 +66,19 @@
                 Console.WriteLine("invalid number");
             }
             #endregion
-            */
             #region Q9
             int pages = 898;
             string pagestext = pages.ToString();  //convert from int to string
             Console.WriteLine(pagestext);
             Console.WriteLine(pagestext.GetType().Name);  // return name of data type
+            #endregion
+            */
+            #region Q10
+            int copies = 5;
+            object obj = copies;  //boxing
+            Console.WriteLine(obj);
+            int files = (int)obj;  //unboxing
+            Console.WriteLine(files);
             #endregion
 
         }
