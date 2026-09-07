@@ -18,13 +18,27 @@
             Console.WriteLine(book.Equals(book2));  //compare between two values
             Console.WriteLine(book.GetType().Name);  //return the name of object
             #endregion
-            */
 
             #region Q3
              int pages = "646"     //compile error
             #endregion
-
-            
+            */
+            #region Q4
+            try  //handles exception
+            {
+              int num = 10;
+                Console.WriteLine(num / 0);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("cannot divid by zero");
+            }
+            finally
+            {
+                Console.WriteLine("done");
+            }
+            #endregion
+           
 
         }
     }
