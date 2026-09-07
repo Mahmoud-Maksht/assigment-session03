@@ -37,11 +37,16 @@
                 Console.WriteLine("done");
             }
             #endregion
-            */
             #region Q5
             int pages = 300;
             double webpages = pages;  //implicit casting
             Console.WriteLine(webpages);
+            #endregion
+            */
+            #region Q6
+            double prise = 49.49;
+            int realprice = (int)prise;  //explicit casting
+            Console.WriteLine(realprice);
             #endregion
 
         }
