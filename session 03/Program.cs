@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            #region Q1
+            Book book = new Book();
+            book.pages = 100;
+            book.titel = "C# Programming";
+            Console.WriteLine(book.pages);
+            Console.WriteLine(book.titel);
+            #endregion
         }
     }
 }
