@@ -52,7 +52,6 @@
             int numpagestext = Convert.ToInt32(pagestext);  //convert from string to int
             Console.WriteLine(numpagestext);
             #endregion
-            */
             #region Q8
             string yeartext = "2023";
             int text = int.Parse( yeartext );  //convert from string to int
@@ -66,6 +65,13 @@
             {
                 Console.WriteLine("invalid number");
             }
+            #endregion
+            */
+            #region Q9
+            int pages = 898;
+            string pagestext = pages.ToString();  //convert from int to string
+            Console.WriteLine(pagestext);
+            Console.WriteLine(pagestext.GetType().Name);  // return name of data type
             #endregion
 
         }
