@@ -42,11 +42,16 @@
             double webpages = pages;  //implicit casting
             Console.WriteLine(webpages);
             #endregion
-            */
             #region Q6
             double prise = 49.49;
             int realprice = (int)prise;  //explicit casting
             Console.WriteLine(realprice);
+            #endregion
+            */
+            #region Q7
+            string pagestext = "464";
+            int numpagestext = Convert.ToInt32(pagestext);  //convert from string to int
+            Console.WriteLine(numpagestext);
             #endregion
 
         }
